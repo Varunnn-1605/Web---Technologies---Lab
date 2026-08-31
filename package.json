@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-web-server",
+  "version": "1.0.0",
+  "description": "Node.js HTTP server serving Homepage, About page, and 404 handler with request logging middleware.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["node", "http", "server"],
+  "author": "",
+  "license": "ISC"
+}

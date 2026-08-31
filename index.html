@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage - Node.js Server</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🏠 Welcome to the Homepage</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/invalid-sample">Sample 404 Route</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card">
+        <h3>Node.js HTTP Server</h3>
+        <p>This is the Homepage served directly by our custom Node.js server using core modules (<code>http</code>, <code>fs</code>, <code>path</code>).</p>
+      </div>
+
+      <p>Features implemented:</p>
+      <ul>
+        <li>Static routing for root (<code>/</code>) and <code>/about.html</code></li>
+        <li>Request logging middleware active in console</li>
+        <li>Asynchronous file reading with proper MIME-type mapping</li>
+        <li>Graceful 404 error handling for non-existent routes</li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>&copy; Node.js Web Server Application</p>
+    </footer>
+  </div>
+</body>
+</html>
